@@ -5,7 +5,7 @@ import Contacto from './pages/Contacto'
 import Galeria from './pages/Galeria'
 import Navbar from './layout/Navbar'
 function App() {
-
+dadadada
   
   return (
     <>
@@ -19,6 +19,5 @@ function App() {
     </>
   )
 } 
-
 
 export default App
