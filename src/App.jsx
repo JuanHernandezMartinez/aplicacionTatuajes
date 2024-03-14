@@ -19,7 +19,7 @@ function App() {
         <Route path='/galeria' element={<Galeria />} />
       </Routes>
     </>
-  )
+  )dasda
 } hola
 //sandra edito aqui 
 
