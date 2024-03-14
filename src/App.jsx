@@ -6,6 +6,7 @@ import Galeria from './pages/Galeria'
 import Navbar from './layout/Navbar'
 function App() {
 
+  //jdlsjksdadhlkasd
   return (
     <>
       <Navbar />
