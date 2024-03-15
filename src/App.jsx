@@ -6,9 +6,6 @@ import Galeria from './pages/Galeria'
 import Navbar from './layout/Navbar'
 function App() {
 
-  //jdlsjksdadhlkasddsadsadadadadadadas
-  sadkjhfasghdasf
-  asdpasjdsavdajh
   return (
     <>
       <Navbar />
@@ -19,7 +16,7 @@ function App() {
         <Route path='/galeria' element={<Galeria />} />
       </Routes>
     </>
-  )dasda
-} hola
+   )
+} 
 
 export default App
