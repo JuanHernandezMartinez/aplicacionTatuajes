@@ -9,7 +9,7 @@ dadadada
   
   return (
     <>
-      <Navbar />
+    <Navbar/>
       <Routes>
         <Route path='/inicio' element={<PaginaInicio />} />
         <Route path='/blog' element={<Blog />} />

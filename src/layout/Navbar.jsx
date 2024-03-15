@@ -6,16 +6,12 @@ export default function Navbar() {
   const navigate=useNavigate()
   return (
     <div>
-      <header>
-            Estudio Chuma
-        </header>
         <nav className='barra-navegacion'>
             <ul>
-                <li onClick={()=>navigate("/inicio")}>Incio</li>
-                <li onClick={()=>navigate("/blog")}>Blog</li>
-                <li onClick={()=>navigate("/contacto")}>Contacto</li>
-                <li onClick={()=>navigate("/galeria")}>Galeria</li>
-
+                <li className='btn btn-success' onClick={()=>navigate("/inicio")}>Incio</li>
+                <li className='btn btn-success'  onClick={()=>navigate("/blog")}>Blog</li>
+                <li className='btn btn-success'  onClick={()=>navigate("/contacto")}>Contacto</li>
+                <li className='btn btn-success'  onClick={()=>navigate("/galeria")}>Galeria</li>
             </ul>
         </nav>
     </div>
