@@ -1,18 +1,27 @@
 .barra-navegacion li{
     list-style-type: none;
     list-style: none;
+  
+    
 
 }
 
 .barra-navegacion ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
 
 }
 
 .barra-navegacion li {
-    background-color: blue;
-    color: white;
-    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
     padding: 10px;
+    width: 70px;
+    height: 20px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+    
 }

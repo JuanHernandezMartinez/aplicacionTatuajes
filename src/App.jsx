@@ -9,8 +9,11 @@ function App() {
   return (
     <>
       <Navbar />
+      <PaginaInicio/>() {
+      
+     }
       <Routes>
-        <Route path='/inicio' element={<PaginaInicio />} />
+        <Route element={<App />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contacto' element={<Contacto />} />
         <Route path='/galeria' element={<Galeria />} />
@@ -18,5 +21,6 @@ function App() {
     </>
    )
 } 
+
 
 export default App

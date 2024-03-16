@@ -11,7 +11,7 @@ export default function Navbar() {
         </header>
         <nav className='barra-navegacion'>
             <ul>
-                <li onClick={()=>navigate("/inicio")}>Incio</li>
+                <li onClick={()=>navigate("/")}>Incio</li> 
                 <li onClick={()=>navigate("/blog")}>Blog</li>
                 <li onClick={()=>navigate("/contacto")}>Contacto</li>
                 <li onClick={()=>navigate("/galeria")}>Galeria</li>
