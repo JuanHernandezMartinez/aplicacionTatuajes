@@ -23,6 +23,7 @@ function App() {
         <Route path='/contacto' element={<Contacto />} />
         <Route path='/galeria' element={<Galeria />} />
       </Routes>
+      
       <Footer/>
 
       

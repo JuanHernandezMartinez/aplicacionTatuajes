@@ -4,23 +4,19 @@ import "../styles/Footer.css"
 export default function Footer() {
   return (
     <>
-    <div>
-      <header>
-        <br />
-        
-            Derechos reservados
-        </header>
-      
-        <nav className='footer'>
+    
+    <br />
+        <div className='footer' >
             <ul>
-                <li >Incio</li> 
-                <li >Blog</li>
+                <li >Correo</li> 
+                <li >Info</li>
                 <li >Contacto</li>
-                <li >Galeria</li>
-
+                <li >Dirreccion</li>
             </ul>
-        </nav>
-    </div>
+            <p>&copy;ChumaTatoos. inc</p>
+        </div>
+        
+   
     </>
   )
 }
