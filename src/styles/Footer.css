@@ -1,13 +1,22 @@
-.Footer div{
-    display: flex;
-    justify-content: space-around;
-    cursor: pointer;
-    background:linear-gradient(-45deg, #303333, #09a878);;
-
+.footer div{
+    text-align: center;
+    align-items: center;
 }
 
-.Footer li{
-    text-align: justify;
-    background:linear-gradient(-45deg, #303333, #09a878);;
+.footer li{
+    list-style-type: none;
+    list-style: none;
+    border-bottom:0rcap;
+}
+.footer header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+}
 
+.footer ul{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
 }

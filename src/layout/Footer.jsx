@@ -1,17 +1,26 @@
 import React from 'react'
+import "../styles/Footer.css"
 
 export default function Footer() {
   return (
-    <div className='Footer'>
-      <h1>Todos los derechos reservados</h1>
-      <ul>
-        <li/>Contacto 
-        <li/>Correo
-        <li/>Correo
-
+    <>
+    <div>
+      <header>
+        <br />
         
-      </ul>
+            Derechos reservados
+        </header>
+      
+        <nav className='footer'>
+            <ul>
+                <li >Incio</li> 
+                <li >Blog</li>
+                <li >Contacto</li>
+                <li >Galeria</li>
 
+            </ul>
+        </nav>
     </div>
+    </>
   )
 }
