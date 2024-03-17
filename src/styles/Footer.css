@@ -3,8 +3,10 @@ footer{
     background-color: aquamarine;
 }
 
-.footer div{
+.color {
    background-color: black;
+   padding-bottom: 7px;
+   padding-top: 7px;
    
 
 }

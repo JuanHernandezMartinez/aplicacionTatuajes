@@ -6,6 +6,7 @@ export default function Footer() {
     <>
     
     <br />
+        <div className='color'>
         <div className='footer' >
             <ul>
                 <li >Correo</li> 
@@ -14,6 +15,7 @@ export default function Footer() {
                 <li >Dirreccion</li>
             </ul>
             <p>&copy;ChumaTatoos. inc</p>
+        </div>
         </div>
         
    
