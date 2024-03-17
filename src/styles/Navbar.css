@@ -1,9 +1,6 @@
 .barra-navegacion li{
     list-style-type: none;
     list-style: none;
-  
-    
-
 }
 
 .barra-navegacion ul{
@@ -12,6 +9,7 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+    background:linear-gradient(-45deg, #1dc8ac, #1e336d);;
 
 }
 

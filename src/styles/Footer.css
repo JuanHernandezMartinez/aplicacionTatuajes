@@ -1,0 +1,13 @@
+.Footer div{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background:linear-gradient(-45deg, #303333, #09a878);;
+
+}
+
+.Footer li{
+    text-align: justify;
+    background:linear-gradient(-45deg, #303333, #09a878);;
+
+}

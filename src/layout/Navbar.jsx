@@ -7,14 +7,15 @@ export default function Navbar() {
   return (
     <div>
       <header>
-            Estudio Chuma
+            ChumaTatoo(imagen)
         </header>
+      
         <nav className='barra-navegacion'>
             <ul>
-                <li onClick={()=>navigate("/")}>Incio</li> 
-                <li onClick={()=>navigate("/blog")}>Blog</li>
-                <li onClick={()=>navigate("/contacto")}>Contacto</li>
-                <li onClick={()=>navigate("/galeria")}>Galeria</li>
+                <li onClick={()=>navigate("/inicio")}>Incio</li> 
+                <li onClick={()=>navigate("/Blog")}>Blog</li>
+                <li onClick={()=>navigate("/Contacto")}>Contacto</li>
+                <li onClick={()=>navigate("/Galeria")}>Galeria</li>
 
             </ul>
         </nav>
