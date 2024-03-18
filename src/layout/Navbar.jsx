@@ -14,9 +14,9 @@ export default function Navbar() {
         <nav className='barra-navegacion'>
             <ul>
                 <Button className='m-2' variant='dark' onClick={()=>navigate("/inicio")}>INICIO</Button>
-                <Button className='m-2' variant='dark' onClick={()=>navigate("/Blog")}>Blog</Button>
-                <Button className='m-2' variant='dark' onClick={()=>navigate("/Contacto")}>Contacto</Button>
-                <Button className='m-2' variant='dark' onClick={()=>navigate("/Galeria")}>Galeria</Button>
+                <Button className='m-2' variant='dark' onClick={()=>navigate("/Blog")}>BLOG</Button>
+                <Button className='m-2' variant='dark' onClick={()=>navigate("/Contacto")}>CONTACTO</Button>
+                <Button className='m-2' variant='dark' onClick={()=>navigate("/Galeria")}>GALERIA</Button>
 
             </ul>
         </nav>
