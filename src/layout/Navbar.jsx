@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className='brr'>
       <nav className='barra-navegacion'>
-        <div className='color'>
+        <div>
             <a class="imagen" href="#">
               <img src="../assets/bienvenido.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top" />
               Chuma tatoo
@@ -21,8 +21,8 @@ export default function Navbar() {
               <Button className='m-2' variant='dark' onClick={() => navigate("/Contacto")}>Contacto</Button>
               <Button className='m-2' variant='dark' onClick={() => navigate("/Galeria")}>Galeria</Button>
               <Button className='m-2' variant='dark' onClick={() => navigate("/Galeria")}>Galeria</Button>
+
             </ul>
-        
         </div>
       </nav>
     </div>
