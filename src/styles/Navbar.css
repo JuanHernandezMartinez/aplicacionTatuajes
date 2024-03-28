@@ -1,25 +1,22 @@
-.barra-navegacion li{
-    list-style-type: none;
-    list-style: none;
-}
 
-.barra-navegacion ul{
+.brr div{
     display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 10px;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px;
     cursor: pointer;
     background:linear-gradient(-45deg, #1dc8ac, #1e336d);;
 
 }
 
-.barra-navegacion li {
-    text-align: center;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 10px;
-    width: 70px;
-    height: 20px;
-    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+.imagen a{
+    display: block;
+    justify-content: space-around;
+    align-items: start;
     
+
 }
+
+
+
+
