@@ -1,6 +1,6 @@
 .post article{
     align-items: center;
-    display: grid;
+    
     width: var(--container-width-lg);
     background: var(--color-gray-900);
     padding: 1rem;
@@ -16,24 +16,26 @@
 }
 
 .post_imagen div{
-    align-items: center;
-    display: grid;
+  
+    display: flow-root;
     border-radius: var(--radius-4);
     overflow: hidden;
 }
 
 
-h3{
+.titulo h3{
     color: var(--color-gray-900);
     text-align: center;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font: 'Raleway', sans-serif;
     line-height: 1.1;
     font-size: 2.3rem;
     margin: 1rem 0 0.6rem;
+    cursor: default;
 }
 p{
     text-align: center;
+    text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
 }
