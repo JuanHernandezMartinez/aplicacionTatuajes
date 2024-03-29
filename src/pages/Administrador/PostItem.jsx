@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Posts_styles from "/Users/Jesus/Desktop/aplicacionTatuajes/src/styles/Posts_style.css"
+import '../Administrador/Styles_post/Stpost.css'
 
 const PostItem = ({ PostID, titulo, desc, imagen }) => {
     return (

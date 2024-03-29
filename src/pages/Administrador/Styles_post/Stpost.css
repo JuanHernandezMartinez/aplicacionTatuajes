@@ -1,0 +1,11 @@
+article{
+    align-items: flex-start;
+    padding: 15px;
+
+}
+
+post_imagen div{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
