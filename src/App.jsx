@@ -7,6 +7,7 @@ import Navbar from './layout/Navbar'
 import "./styles/App.css"
 import Footer from './layout/Footer'
 
+
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path='/contacto' element={<Contacto />} />
         <Route path='/galeria' element={<Galeria />} />
       </Routes>
+  
       <Footer />
     </>
   )
