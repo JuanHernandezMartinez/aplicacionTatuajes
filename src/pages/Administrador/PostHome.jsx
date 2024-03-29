@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import PostItem from "./PostItem";
-import imagen1 from "../Administrador/imagenes/descarga.jfif"
+import descarga from "../Administrador/imagenes/descarga.jfif"
 
 
 
 const DUMMY_POST =[
     {
-        id: "1",
-        imagen1: descarga.jfif,
+        id: '1',
+        imagen: descarga,
         titulo: "Primer post",
         desc: "juan se la come"
     },
     {
         id: "2",
-        imagen: descarga.jfif,
-        titulo: "Primer post",
-        desc: "juan se la come"
+        imagen: descarga,
+        titulo: "segundo post",
+        desc: "juan se la come y elihu tambien"
     },
     {
         id: "3",
-        imagen: descarga.jfif,
-        titulo: "Primer post",
-        desc: "juan se la come"
+        imagen: descarga,
+        titulo: "tercer post",
+        desc: "juan se la come con todo "
     }
 ]
 
