@@ -13,7 +13,7 @@ const PostItem = ({ PostID, titulo, desc, imagen }) => {
                     <h3>{titulo}</h3>
                 </Link>
                 <p className='Desc'> {desc} </p>
-                
+
             </div>
         </article>
     )

@@ -1,0 +1,15 @@
+.Posts section{
+    margin-top: 6rem;
+
+
+}
+
+.post_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    width: var(--container-width-lg);
+    margin-top: 1.5rem;
+    
+
+}

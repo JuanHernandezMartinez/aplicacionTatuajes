@@ -1,11 +1,39 @@
-article{
-    align-items: flex-start;
-    padding: 15px;
+.post article{
+    align-items: center;
+    display: grid;
+    width: var(--container-width-lg);
+    background: var(--color-gray-900);
+    padding: 1rem;
+    border-radius: var(--radius-4);
+    padding-bottom: 2rem;
+    transition: var(--transition);
+    cursor: default;
+    
 
 }
+.post:hover{
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
 
-post_imagen div{
-    display: block;
-    object-fit: cover;
-    width: 100%;
+.post_imagen div{
+    align-items: center;
+    display: grid;
+    border-radius: var(--radius-4);
+    overflow: hidden;
+}
+
+
+h3{
+    color: var(--color-gray-900);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.1;
+    font-size: 2.3rem;
+    margin: 1rem 0 0.6rem;
+}
+p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
 }
