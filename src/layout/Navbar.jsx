@@ -1,4 +1,6 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
 import '../styles/Navbar.css'
 import { useNavigate } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
@@ -16,11 +18,11 @@ export default function Navbar() {
              
             </a>
             <ul>
-              <Button className='m-2' variant='dark' onClick={() => navigate("/inicio")}>Inicio</Button>
-              <Button className='m-2' variant='dark' onClick={() => navigate("/Blog")}>Blog</Button>
-              <Button className='m-2' variant='dark' onClick={() => navigate("/Contacto")}>Contacto</Button>
-              <Button className='m-2' variant='dark' onClick={() => navigate("/Galeria")}>Galeria</Button>
-              <Button className='m-2' class="btn btn-outline-Warning" variant='Warning' onClick={() => navigate("/Login")}>Administrador</Button>
+              <Button className='m-2' variant='dark btn-lg' onClick={() => navigate("/inicio")}>Inicio</Button>
+              <Button className='m-2' variant='dark btn-lg' onClick={() => navigate("/Blog")}>Blog</Button>
+              <Button className='m-2' variant='dark btn-lg' onClick={() => navigate("/Contacto")}>Contacto</Button>
+              <Button className='m-2' variant='dark btn-lg' onClick={() => navigate("/Galeria")}>Galeria</Button>
+              <Button className='m-2' class="btn btn-outline-Warning" variant='Warning btn-lg' onClick={() => navigate("/login")}>Administrador</Button>
 
             </ul>
         </div>

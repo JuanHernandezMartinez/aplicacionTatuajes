@@ -1,6 +1,5 @@
-.post article{
+ article{
     align-items: center;
-    
     width: var(--container-width-lg);
     background: var(--color-gray-900);
     padding: 1rem;
@@ -9,33 +8,39 @@
     transition: var(--transition);
     cursor: default;
     
+    
 
 }
-.post:hover{
+article:hover{
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .post_imagen div{
-  
     display: flow-root;
     border-radius: var(--radius-4);
     overflow: hidden;
 }
+img{
+    align-items:center ;
 
-
-.titulo h3{
-    color: var(--color-gray-900);
-    text-align: center;
-    text-decoration: none;
-    font: 'Raleway', sans-serif;
-    line-height: 1.1;
-    font-size: 2.3rem;
-    margin: 1rem 0 0.6rem;
-    cursor: default;
 }
-p{
-    text-align: center;
-    text-decoration: none;
+h{
+    text-align: start;
+    text-decoration-style: none;
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    margin: 1rem 0 0.6rem;
+    font-size: 2rem;
+    cursor: default;
+
 }
+
+ 
+
+p{
+    text-align: start;
+    text-decoration-style: none;
+    font-family: "Poppins", sans-serif;
+    margin: 1.5rem 0 0.6rem;
+    font-size: 1.5rem;
+}
+

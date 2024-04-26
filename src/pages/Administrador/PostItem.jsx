@@ -1,19 +1,22 @@
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Administrador/Styles_post/Stpost.css'
 
 
+
 const PostItem = ({ PostID, titulo, desc, imagen }) => {
     return (
-        <article className="post">
+        <article >
             <div className="post_imagen">
-                <img src={imagen} class="rounded " alt={titulo} />
+                <img src={imagen} class="rounded" alt={titulo} />
             </div>
-            <div className="post_content">
+            <div className="Post_content">
                 <Link to={`/PostHome/${PostID}`}>
-                    <h3 className='titulo'>{titulo}</h3>
+                    <h href="#" class="text-decoration-none">{titulo}</h>
                 </Link>
-                <p className='Desc'> {desc} </p>
+                <p> {desc} </p>
 
             </div>
         </article>

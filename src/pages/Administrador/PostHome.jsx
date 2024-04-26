@@ -9,7 +9,7 @@ const DUMMY_POST = [
     {
         id: '1',
         imagen: descarga,
-        titulo: "Primer post",
+        titulo: "Primer tatuaje del dia",
         desc: "juan se la come "
     },
     {
@@ -38,6 +38,12 @@ const DUMMY_POST = [
     },
     {
         id: "6",
+        imagen: descarga,
+        titulo: "Tercer post",
+        desc: "juan se la come con todo "
+    },
+    {
+        id: "7",
         imagen: descarga,
         titulo: "Tercer post",
         desc: "juan se la come con todo "

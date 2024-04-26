@@ -5,3 +5,4 @@ import Contacto from './pages/Contacto'
 import Galeria from './pages/Galeria'
 import Navbar from './layout/Navbar'
 import Footer from './layout/Footer'
+

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     background:linear-gradient(-45deg, #1dc8ac, #1e336d);;
     transition: var(--transition);
